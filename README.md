@@ -11,7 +11,7 @@ I build things that work in production, not just in demos.
 - **[Secure-Instant-Messenger](https://github.com/mythic3011/Secure-Instant-Messenger)** — E2E encrypted messaging app. X25519/AES-256-GCM, Ed25519 identity keys, Argon2id + TOTP 2FA, replay protection, Textual TUI client. Security tests cover replay attacks and ciphertext tampering.
 
 ### Full-Stack & Backend
-- **[job-Boards](https://github.com/mythic3011/job-Boards)** — Laravel job board with a production security stack: CrowdSec IDS, Prometheus, Grafana, Loki, HMAC auth service, Docker split-plane deployment. Live at [jb.mythic3011.com](https://jb.mythic3011.com).
+- **[job-Boards](https://github.com/mythic3011/job-Boards)** — Laravel job board with a production security stack: CrowdSec IDS, Prometheus, Grafana, Loki, HMAC auth service, Docker split-plane deployment.
 
 ### Data & Automation
 - **[trustpilot-scraper](https://github.com/mythic3011/trustpilot-scraper)** — Modular TypeScript + Playwright extraction pipeline. 12 single-responsibility modules, property-based tests with fast-check.
