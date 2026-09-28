@@ -1,5 +1,7 @@
 # mythic3011
 
+<p align="center"><img src="assets/terminal.svg" alt="terminal intro" width="720"></p>
+
 Full-stack engineer and Information Security student in Hong Kong.  
 I build things that work in production, not just in demos.
 
@@ -24,13 +26,11 @@ I build things that work in production, not just in demos.
 ## Homelab
 
 ```
-MacBook ──── OpenWrt router ──── VPS
-                │                 │
-           DNS enforcement    Portainer
-           DoH upstream       CrowdSec
-           OpenClash proxy    Prometheus
-           Firewall rules     Grafana
-                              Nginx reverse proxy
+Router      OpenWrt (own signed build) · AdGuard Home · CrowdSec · qosify
+Edge        Xray REALITY · static blog honeypot · DoH
+Core        VictoriaMetrics · VictoriaLogs · Grafana · CrowdSec hub
+Access      Cloudflare Zero Trust · passkeys (Pocket ID)
+Runtime     Podman (rootless) · Docker · GitHub Actions
 ```
 
 Everything containerised. Everything monitored.
@@ -66,9 +66,10 @@ PDPO/GDPR by default
 
 ## Currently
 
-- Breaking: homelab Tailscale routing after OpenWrt update
+- Building: own OpenWrt firmware with signed releases and QEMU-tested CI
 - Building: AI agent workflow runtime for multi-repo development
-- Reading: whatever the next CTF challenge requires
+- Research: LLM-assisted IoT / network protocol fuzzing (capstone)
+- Learning: HTB SOC Analyst path, then CDSA
 
 ---
 
@@ -90,6 +91,15 @@ Crypto      X25519 · AES-GCM · Ed25519 · Argon2id · TOTP
 - 🏆 **CTF Champion** — PolyU × NuttyShell Cybersecurity CTF 2025
 - 🎓 Information Security degree, Hong Kong (in progress)
 - 💼 Previously: OSINT pipeline and NER engineering, mapping industry
+
+---
+
+## Activity
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mythic3011/mythic3011/output/snake-dark.svg">
+  <img alt="contribution snake" src="https://raw.githubusercontent.com/mythic3011/mythic3011/output/snake.svg">
+</picture>
 
 ---
 

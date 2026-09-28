@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="200" viewBox="0 0 720 200" role="img" aria-label="mythic3011 terminal intro">
+  <style>
+    .bg{fill:#0d1117}.bar{fill:#161b22}.t{font:15px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;fill:#c9d1d9}
+    .p{fill:#3fb950}.a{fill:#58a6ff}.w{fill:#d29922}
+    .l{opacity:0;animation:show 0s linear forwards}
+    .l1{animation-delay:.3s}.l2{animation-delay:1.2s}.l3{animation-delay:2.1s}.l4{animation-delay:3s}.l5{animation-delay:3.9s}
+    .c{animation:blink 1s steps(1) infinite}
+    .clip{animation:type 0.8s steps(30) forwards}
+    @keyframes show{to{opacity:1}}
+    @keyframes blink{50%{opacity:0}}
+    @media (prefers-reduced-motion:reduce){.l{animation:none;opacity:1}.c{animation:none}}
+  </style>
+  <rect class="bg" width="720" height="200" rx="10"/>
+  <rect class="bar" width="720" height="28" rx="10"/>
+  <circle cx="18" cy="14" r="5" fill="#ff5f56"/><circle cx="36" cy="14" r="5" fill="#ffbd2e"/><circle cx="54" cy="14" r="5" fill="#27c93f"/>
+  <text class="t" x="300" y="19" font-size="12" fill="#8b949e">alvin@homelab: ~</text>
+  <text class="t l l1" x="20" y="60"><tspan class="p">$</tspan> whoami</text>
+  <text class="t l l2" x="20" y="85">InfoSec student · blue team · detection engineering</text>
+  <text class="t l l3" x="20" y="115"><tspan class="p">$</tspan> cat focus.txt</text>
+  <text class="t l l4" x="20" y="140"><tspan class="a">homelab</tspan> OpenWrt · CrowdSec · honeypots · <tspan class="w">purple team</tspan></text>
+  <text class="t l l5" x="20" y="170"><tspan class="p">$</tspan> <tspan class="c">█</tspan></text>
+</svg>
